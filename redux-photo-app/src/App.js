@@ -1,5 +1,4 @@
-import React from "react";
-import { Suspense } from "react";
+import React, { Suspense } from "react";
 import { BrowserRouter, Link, Redirect, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header";

@@ -9,7 +9,6 @@ Photo.propTypes = {};
 
 function Photo(props) {
   const match = useRouteMatch();
-  console.log({ match });
   return (
     <Switch>
       <Route exact path={match.url} component={MainPage} />

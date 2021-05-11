@@ -24,6 +24,7 @@ function Header(props) {
 
           <Col xs="auto">
             <NavLink
+              exact
               className="header__link"
               to="/photos"
               activeClassName="header__link--active"
